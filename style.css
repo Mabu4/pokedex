@@ -21,9 +21,20 @@ body {
     margin: 0;
 }
 
+.logo-outer {
+    padding-top: 2rem;
+}
+
+.logo {
+    display: block;
+    margin: 0rem auto 2rem auto;
+    width: 20rem;
+}
+
 #pokedex {
     min-height: 100vh;
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgba(200, 200, 200, 0.895) 0%, rgba(200, 200, 200, 0.895) 100%), url(./img/background.jpg);
+    background-position: center 0%;
     color: white;
 }
 
